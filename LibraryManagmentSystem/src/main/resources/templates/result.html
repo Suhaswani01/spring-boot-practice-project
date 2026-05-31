@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Book Details</title>
+</head>
+<body>
+
+    <h2>📗 Book Details</h2>
+    <hr/>
+
+    
+    <div th:if="${book != null}">
+        <p>ID     : 
+           <span th:text="${book.id}"></span>
+        </p>
+        <p>Title  : 
+           <span th:text="${book.title}"></span>
+        </p>
+        <p>Author : 
+           <span th:text="${book.author}"></span>
+        </p>
+        <p>Price  : ₹
+           <span th:text="${book.price}"></span>
+        </p>
+    </div>
+
+    <!-- Book not found -->
+    <div th:if="${book == null}">
+        <p>❌ Book Not Found!</p>
+    </div>
+
+    <br/>
+    <a href="/library/all">📖 All Books</a>
+    &nbsp;&nbsp;
+    <a href="/library/home">🏠 Home</a>
+
+</body>
+</html>>
