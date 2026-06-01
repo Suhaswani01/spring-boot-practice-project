@@ -18,6 +18,15 @@ Practice projects built while learning Spring Boot Core concepts.
 - `JdbcTemplate` se INSERT aur SELECT operations
 - Layered architecture: Model → Service Interface → ServiceImpl → Runner
 
+- Flight Management System (Java)
+
+Developed a Flight Management System using Java to manage flight and passenger records.
+Implemented functionalities such as flight booking, cancellation, and schedule management.
+Applied Object-Oriented Programming (OOP) concepts for modular and maintainable code.
+Utilized Java collections and file handling for efficient data storage and retrieval.
+Added input validation and exception handling to improve system reliability.
+Designed a menu-driven interface for easy user interaction and management of flight operations.
+
 ---
 
 ## 🛠 Tech Stack
