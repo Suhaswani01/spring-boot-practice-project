@@ -1,4 +1,4 @@
-# 🌱 Spring Boot Mini Projects — Sessions 5, 6 & 7
+# 🌱 Spring Boot Mini Projects 
 
 Practice projects built while learning Spring Boot Core concepts.
 
